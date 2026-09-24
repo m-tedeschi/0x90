@@ -56,7 +56,13 @@ Run the following command to install Ghostty with Homebrew:
 brew install --cask ghostty
 ```
 
-Launch Ghostty. Run the following command to copy the configuration to your clipboard:
+Launch Ghostty. First we'll install the required Hack Nerd Font:
+
+```bash
+brew install --cask font-hack-nerd-font
+```
+
+Run the following command to copy the configuration to your clipboard:
 
 ```bash
 grab Ghostty/config.ghostty
@@ -66,5 +72,28 @@ In the Menu Bar, click `Ghostty > Settings...` and paste the config. Save it and
 
 **Features:**
 * Sick transparent background
+* Super dope Hack Nerd Font
 * No title bar: We will use Karabiner to reposition the window later
 * Some other general terminal stuff, like sending keys appropriately to tmux
+
+
+### Vim
+The ultimate text editor.
+
+**Install:**
+
+Very straightforward, we're going to install Vim, ripgrep, fzf, git, and Universal Ctags in one shot. Then we're gonna copy the dotfiles to the user directory:
+
+```bash
+brew install vim ripgrep fzf git universal-ctags
+cp -R Vim/.vim ~/.vim
+cp Vim/.vimrc ~/.vimrc
+```
+
+**Features:**
+* Sick monochrome icy theme
+* File navigation with `netrw`, ripgrep, and fzf
+* Custom Tiny RG plugin for ripgrep integration with quickfix menu
+* Leader key mappings for different fzf modes
+* Symbol tracing with bindings for Universal Ctags
+* Lots more. Refer to `Vim/README.md`
