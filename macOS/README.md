@@ -103,6 +103,7 @@ cp Vim/.vimrc ~/.vimrc
 The preferred terminal sessionizer.
 
 **Install:**
+
 Again, very straightforward. We install with Homebrew, then copy the dotfile to the user directory:
 
 ```bash
