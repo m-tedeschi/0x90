@@ -22,6 +22,7 @@ The following applications are utilized:
 The native macOS [Zsh](https://en.wikipedia.org/wiki/Z_shell) ("Z shell") is used.
 
 **Install:**
+
 All we need to do for this is drop in a single dotfile to our user home directory:
 
 ```bash
