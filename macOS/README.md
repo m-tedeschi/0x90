@@ -98,7 +98,7 @@ cp Vim/.vimrc ~/.vimrc
 * Symbol tracing with bindings for Universal Ctags
 * Lots more. Refer to `Vim/README.md`
 
-
+---
 ### tmux
 The preferred terminal sessionizer.
 
