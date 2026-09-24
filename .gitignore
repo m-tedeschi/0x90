@@ -1,0 +1,5 @@
+# Vim swapfiles
+*.swp
+
+# macOS Artifact
+.DS_Store
