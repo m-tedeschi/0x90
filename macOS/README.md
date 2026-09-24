@@ -205,13 +205,34 @@ I'm probably missing a few but this should cover the majority of functionality.
 You can definitely run this setup using the native Finder app, but Cosmil is so much more elegant looking and matches the transparent terminal theme beautifully.
 
 **Installation:**
-Download and install [Cosmil](https://cosmil.app/). 
-Purchase a license, activate it. 
-You're pretty much done. 
-You may opt to turn off the Dropzone feature in Cosmil's settings along with the sidebar-marked locations for a more minimalist view.
+Download and install [Cosmil](https://cosmil.app/)
+Purchase a license, activate it
+You're pretty much done
+You may opt to turn off the Dropzone feature in Cosmil's settings along with the sidebar-marked locations for a more minimalist view
 
 **Features:**
 * Multi-paned file browsing tabs
 * Beautiful transparent theme works well with Ghostty/tmux/Vim configs
 * The developer is active in his Discord server and implemented the `Window`
   Menu Bar item so this app could work with my window tiling keybinds :)
+
+---
+### AltTab
+The default macOS `Command + Tab` behavior is good, but AltTab's is much nicer.
+
+**Installation:**
+* Download and install [AltTab](https://alt-tab.app/)
+* You may want to purchase and activate the Pro license, although I personally haven't done this (yet)
+* Launch the app, click `Import Settings` under `General`, and load
+  `AltTab/alttab.plist`
+* The main thing we want here is to hide applications with no active windows
+* We also want application window previews. You will probably need to adjust
+  some Accessibility settings on your Mac
+* Make sure to add it to your Login Items in Settings so it launches at startup
+
+**Features:**
+* Ignores Finder and Discord when switching applications
+* Preview of window (requires Accessibility permissions)
+* `Left Command + Tab` Switch applications/windows
+* `Option + Tab` Switch between focused application windows (example: You have
+  3 Ghostty terminal windows open and only want to switch between them. This keyboard shortcut comes from the Karabiner section)
