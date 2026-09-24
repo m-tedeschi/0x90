@@ -1,4 +1,4 @@
-# Vim Configuration
+# 0x90 | macOS | Vim
 
 An opinionated, terminal-focused Vim setup built around netrw, fzf, ripgrep,
 embedded terminals, and a minimal custom interface. The plugins and color
