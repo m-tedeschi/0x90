@@ -17,7 +17,7 @@ The following applications are utilized:
 * Cosmil: Improved Finder for file browsing
 * AltTab: Improved application switching
 
-
+---
 ### Zsh
 The native macOS [Zsh](https://en.wikipedia.org/wiki/Z_shell) ("Z shell") is used.
 
@@ -45,7 +45,7 @@ You can close the default Terminal app now, we will never be using it again.
 * Loads `fzf` if installed for fuzzy finder shell navigation
 * `brew` Homebrew package manager
 
-
+---
 ### Ghostty
 Next let's upgrade our terminal emulator. [Ghostty](https://ghostty.org/) is super fast and easily customizable.
 
@@ -76,7 +76,7 @@ In the Menu Bar, click `Ghostty > Settings...` and paste the config. Save it and
 * No title bar: We will use Karabiner to reposition the window later
 * Some other general terminal stuff, like sending keys appropriately to tmux
 
-
+---
 ### Vim
 The ultimate text editor.
 
@@ -115,7 +115,7 @@ cp tmux/.tmux.conf ~/.tmux.conf
 * Monochrome theme to match Vim
 * It's vanilla tmux. Boring and ridiculously useful in the terminal
 
-
+---
 ### Workspace Flow
 A small tool I wrote for sessionizing the sessionizer. Good for isolating work contexts and switching between them quickly.
 
@@ -139,7 +139,7 @@ git clone https://www.github.com/m-tedeschi/workspace-flow
 * `wf -d <name>` Deletes a named workspace
 * `wf -x` Detaches from the current workspace
 
-
+---
 ### Karabiner Elements
 Karabiner will give us access to window tiling management keybinds. Most of the functionality comes from the native macOS "Window" item from the Menu Bar.
 
