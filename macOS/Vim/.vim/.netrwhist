@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/miketedeschi/dev/learn-swift/labs/03-refresh-snapshot'
+let g:netrw_dirhist_6='/Users/miketedeschi'
+let g:netrw_dirhist_5='/Users/miketedeschi/Documents/uri/csc412/dev/csc412-s25-assignments/A1'
+let g:netrw_dirhist_4='/Users/miketedeschi/Documents/uri/csc412/dev/assignments-site'
+let g:netrw_dirhist_3='/Users/miketedeschi/Documents/uri/csc412/dev'
+let g:netrw_dirhist_2='/Users/miketedeschi/Documents/uri/csc412/dev/csc412-s25-assignments'
+let g:netrw_dirhist_1='/Users/miketedeschi/Documents/uri/csc412/dev/csc412-s25-assignments/A1'
+let g:netrw_dirhist_0='/Users/miketedeschi/Documents/uri/csc412/dev/csc412-s25-assignments/A1/docs'
+let g:netrw_dirhist_9='/Users/miketedeschi/Documents/uri/csc412/dev/csc412-s25-assignments/A1'
+let g:netrw_dirhist_8='/Users/miketedeschi/dev/learn-swift/labs/03-refresh-snapshot/.default'
