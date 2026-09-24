@@ -199,3 +199,19 @@ I'm probably missing a few but this should cover the majority of functionality.
 * `Fn + Left Option + \` moves a window to/from iPad Sidecar (you will need to
   adjust the AppleScript in the configuration for this)
 * `Left Option + Shift + d` shows the desktop
+
+---
+### Cosmil
+You can definitely run this setup using the native Finder app, but Cosmil is so much more elegant looking and matches the transparent terminal theme beautifully.
+
+**Installation:**
+Download and install [Cosmil](https://cosmil.app/). 
+Purchase a license, activate it. 
+You're pretty much done. 
+You may opt to turn off the Dropzone feature in Cosmil's settings along with the sidebar-marked locations for a more minimalist view.
+
+**Features:**
+* Multi-paned file browsing tabs
+* Beautiful transparent theme works well with Ghostty/tmux/Vim configs
+* The developer is active in his Discord server and implemented the `Window`
+  Menu Bar item so this app could work with my window tiling keybinds :)
