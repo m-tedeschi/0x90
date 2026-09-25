@@ -3,7 +3,22 @@ This is my minimalist macOS setup.
 
 The emphasis here is on *minimalism* and *productivity*. I try not to bolt on too many external programs or dependencies, and make use of what macOS has natively available. The primary development workflow is centered around the command line. I suggest reading this entire document and incorporating the elements you think best suit your style of work. This is not intended to be a one-size-fits-all configuration and it is more representative of how **I** like to use my machine, for work and for fun.
 
-All commands listed here assume you are running them from `../0x90/macOS/` for installation purposes.
+All commands listed here assume you are running them from `../0x90/macOS/` for installation purposes. I'll assume you probably have `git` installed.
+
+
+## System Settings
+Set these in your Mac's Settings:
+* Automatically show/hide the Dock
+* Dock is positioned on the right side of the screen
+* Menu Bar set to always hidden
+* Minimal Menu Bar items visible at all times
+* Minimal Control Center + Notification Center layouts
+* Spotlight search primarily is for searching apps and contacts
+    * Other search locations disabled to minimalize clutter/irrelevant hits
+    * Minimal file indexing (these are SUPER annoying and hard to debug when
+      they pop up)
+    * Calculator is OK (perform calculations in Spotlight Search)
+
 
 ## Applications
 The following applications are utilized:
