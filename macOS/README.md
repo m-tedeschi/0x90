@@ -204,10 +204,10 @@ I'm probably missing a few but this should cover the majority of functionality.
 You can definitely run this setup using the native Finder app, but Cosmil is so much more elegant looking and matches the transparent terminal theme beautifully.
 
 **Installation:**
-Download and install [Cosmil](https://cosmil.app/)
-Purchase a license, activate it
-You're pretty much done
-You may opt to turn off the Dropzone feature in Cosmil's settings along with the sidebar-marked locations for a more minimalist view
+* Download and install [Cosmil](https://cosmil.app/)
+* Purchase a license, activate it
+* You're pretty much done
+* You may opt to turn off the Dropzone feature in Cosmil's settings along with the sidebar-marked locations for a more minimalist view
 
 **Features:**
 * Multi-paned file browsing tabs
