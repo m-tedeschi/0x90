@@ -35,8 +35,6 @@ cp Zsh/.zshrc ~/.zshrc
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-You can close the default Terminal app now, we will never be using it again.
-
 **Features:**
 * `grab <file>` Copies file's contents to clipboard using `pbcopy`
 * `glog` Improved `git log` display
@@ -69,6 +67,8 @@ grab Ghostty/config.ghostty
 ```
 
 In the Menu Bar, click `Ghostty > Settings...` and paste the config. Save it and relaunch Ghostty.
+
+You can close the default Terminal app now, we will never be using it again.
 
 **Features:**
 * Sick transparent background
@@ -170,8 +170,7 @@ Open Karabiner Elements. Go into the Complex Modifications tab, add a new one, a
 * `App Shortcuts > Safari > Show Start Page` maps to `Left Command + g`
 * `Save picture of screen as a file` maps to `Control + Shift + Command + 3`
 * `Copy picture of screen to the clipboard` maps to `Shift + Command + 3`
-* `Save picture of selected area as a file` maps to `Control + Shift + Command
-  + 4`
+* `Save picture of selected area as a file` maps to `Control + Shift + Command + 4`
 * `Copy picture of selected area to the clipboard` maps to `Shift + Command +
   4`
 * `Move focus to next window` maps to `Left Option + Tab`
