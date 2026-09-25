@@ -78,7 +78,7 @@ You can close the default Terminal app now, we will never be using it again.
 
 ---
 ### Vim
-The ultimate text editor.
+The ultimate text (and code) editor.
 
 **Install:**
 
