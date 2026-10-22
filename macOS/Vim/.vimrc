@@ -33,10 +33,10 @@ set shortmess+=rFW
 nnoremap q <Nop>
 
 " Hide successful :w messages.
-cnoreabbrev <expr> w
-      \ getcmdtype() ==# ':' && getcmdline() ==# 'w'
-      \ ? 'silent write <bar> redraw!'
-      \ : 'w'
+"cnoreabbrev <expr> w
+"      \ getcmdtype() ==# ':' && getcmdline() ==# 'w'
+"      \ ? 'silent write <bar> redraw!'
+"      \ : 'w'
 
 " Search upward through parent directories for the nearest .tags file.
 set tags=./.tags;
@@ -685,6 +685,20 @@ nnoremap <leader>t :RG <C-R><C-W><CR>
 "      \ silent execute
 "      \ '!ctags -R --exclude=.git --exclude=.fruit --exclude=.default .'
 "      \ | redraw!
+
+" Copy the entire buffer (including unsaved edits) to the system clipboard.
+function! GrabBuffer() abort
+  let contents = join(getline(1, '$'), "\n") . "\n"
+  if setreg('+', contents, 'V') == 0
+    echomsg printf('Grabbed buffer [%d]', strlen(contents))
+  endif
+endfunction
+command! Grab call GrabBuffer()
+
+cnoreabbrev <expr> grab
+      \ getcmdtype() ==# ':' && getcmdline() ==# 'grab'
+      \ ? 'Grab'
+      \ : 'grab'
 
 " Generate a hidden tags file in the current working directory.
 command! MakeTags
