@@ -1,5 +1,5 @@
 {
-    "description": "Karabiner Pro by 0x90 (12.0)",
+    "description": "Karabiner Pro by 0x90 (13.0)",
     "manipulators": [
         {
             "from": {
@@ -269,7 +269,7 @@
                 "key_code": "right_shift",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "pointing_button": "button5" }],
+            "to": [{ "key_code": "f20" }],
             "type": "basic"
         }
     ]
