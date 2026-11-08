@@ -112,7 +112,8 @@ set gdefault
 " Filetypes and file-specific behavior
 " =============================================================================
 
-filetype on
+" filetype on
+filetype plugin on
 
 augroup CustomFiletypes
   autocmd!
@@ -690,7 +691,7 @@ nnoremap <leader>t :RG <C-R><C-W><CR>
 function! GrabBuffer() abort
   let contents = join(getline(1, '$'), "\n") . "\n"
   if setreg('+', contents, 'V') == 0
-    echomsg printf('Grabbed buffer [%d]', strlen(contents))
+    echomsg printf('Grabbed buffer [%dB]', strlen(contents))
   endif
 endfunction
 command! Grab call GrabBuffer()
