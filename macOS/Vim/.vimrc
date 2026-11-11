@@ -38,6 +38,9 @@ nnoremap q <Nop>
 "      \ ? 'silent write <bar> redraw!'
 "      \ : 'w'
 
+" Swap file storage
+set directory^=$HOME/.vim/swap//
+
 " Search upward through parent directories for the nearest .tags file.
 set tags=./.tags;
 
