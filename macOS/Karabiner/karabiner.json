@@ -269,7 +269,7 @@
                 "key_code": "right_shift",
                 "modifiers": { "optional": ["any"] }
             },
-            "to": [{ "key_code": "f20" }],
+            "to": [{ "pointing_button": "button5" }],
             "type": "basic"
         }
     ]
