@@ -1,47 +1,22 @@
 window-decoration = auto
-
-# Hides the stoplight
 #macos-window-buttons = hidden
-
-# Full borderless mode
-#window-decoration = none
-
-# Disable annoying bell sounds
+window-decoration = none
 bell-features = false
-
-# Ghostty window title
 title = "macOS"
 
 
-# Hide some icon (idk)
 macos-titlebar-proxy-icon = hidden
-
-# No drag handles
 drag-handle = never
-
-# Some sort of decoration (idk)
 #window-decoration = auto
-
-# Hide the title bar
 #macos-titlebar-style = hidden
-
-# Disable link previews
 link-previews = false
 
 background = #000000
 foreground = #e6e6e6
 background-opacity = 0.75
-
-# No background blur
 #background-blur = false
-
-# Light background blur
 background-blur = 10
-
-# Something with contrast (idk)
 minimum-contrast = 1
-
-# No scroll bars
 scrollbar = never
 
 window-padding-x = 6
@@ -53,7 +28,6 @@ window-height = 36
 window-position-x = 240
 window-position-y = 185
 
-# The best font ever 
 font-family = "Hack Nerd Font"
 font-size = 14
 
@@ -68,6 +42,11 @@ keybind = ctrl+tab=text:\x02o
 
 # Previous tmux pane with Ctrl + Left Shift + Tab
 keybind = ctrl+shift+tab=text:\x02P
+
+# Bindings for tmux split panes
+keybind = ctrl+s=text:\x1b[9001~
+keybind = ctrl+shift+s=text:\x1b[9002~
+
 
 palette = 0=#1b1b1b
 palette = 1=#ff6b6b
