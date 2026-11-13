@@ -1,9 +1,8 @@
 window-decoration = auto
-#macos-window-buttons = hidden
-window-decoration = none
+macos-window-buttons = hidden
+#window-decoration = none
 bell-features = false
-title = "macOS"
-
+title = "尽人事，听天命"
 
 macos-titlebar-proxy-icon = hidden
 drag-handle = never
@@ -37,15 +36,20 @@ cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
 
+
+###################################################
+# START SPECIAL TMUX BINDINGS
+# Use Ctrl for pane cycling because Option switches app windows
 # Next tmux pane with Ctrl + Tab
 keybind = ctrl+tab=text:\x02o
 
 # Previous tmux pane with Ctrl + Left Shift + Tab
 keybind = ctrl+shift+tab=text:\x02P
 
+# DEPRECATED: Use .tmux.conf settings instead
 # Bindings for tmux split panes
-keybind = ctrl+s=text:\x1b[9001~
-keybind = ctrl+shift+s=text:\x1b[9002~
+# keybind = ctrl+s=text:\x1b[9001~
+# keybind = ctrl+shift+s=text:\x1b[9002~
 
 
 palette = 0=#1b1b1b
@@ -90,4 +94,7 @@ keybind = cmd+nine=text:\x02\x39
 
 # Use Left Option for tmux shortcuts; keep Right Option for special characters
 macos-option-as-alt = left
+
+# END SPECIAL TMUX BINDINGS
+##################################
 
