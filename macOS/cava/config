@@ -287,15 +287,28 @@ channels = stereo
 # background must also be defined in hex or remain commented out. 1 = on, 0 = off.
 # You can define as many as 8 different colors. They range from bottom to top of the screen
 gradient = 1
+
+
+########### DUNE COLOR SCHEME ###########
+#gradient_color_1 = '#167BA6'
+#gradient_color_2 = '#73ADA5'
+#gradient_color_3 = '#D3B17C'
+#gradient_color_4 = '#ECA04D'
+#gradient_color_5 = '#F18426'
+; gradient_color_6 = '#cc8033'
+; gradient_color_7 = '#cc5933'
+; gradient_color_8 = '#cc3333'
+
+######### END DUNE COLOR SCHEME ############
+
+########### NEON BLUE/PURPLE COLOR SCHEME #############
 gradient_color_1 = '#00ffff'
 gradient_color_2 = '#0088ff'
 gradient_color_3 = '#8844ff'
 gradient_color_4 = '#ff00cc'
 gradient_color_5 = '#ff6699'
-; gradient_color_6 = '#cc8033'
-; gradient_color_7 = '#cc5933'
-; gradient_color_8 = '#cc3333'
 
+######## END NEON BLUE/PURPLE COLOR SCHEME #############
 # Horizontal is only supported on noncurses output.
 # Only one color will be calculated per bar.
 ; horizontal_gradient = 0
