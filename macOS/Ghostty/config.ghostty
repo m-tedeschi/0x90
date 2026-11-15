@@ -5,6 +5,7 @@ bell-features = false
 title = "尽人事，听天命"
 
 macos-titlebar-proxy-icon = hidden
+#macos-titlebar-style = tabs
 drag-handle = never
 #window-decoration = auto
 #macos-titlebar-style = hidden
