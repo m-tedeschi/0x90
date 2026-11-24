@@ -271,6 +271,46 @@
             },
             "to": [{ "pointing_button": "button5" }],
             "type": "basic"
+        },
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "quote",
+                "modifiers": {
+                    "mandatory": ["control", "shift"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/usr/bin/osascript -e 'tell application \"System Events\" to tell process \"Ghostty\" to set size of front window to {1175, 778}'"
+                }
+            ],
+            "conditions": [
+                {
+                    "type": "frontmost_application_if",
+                    "bundle_identifiers": ["^com\\.mitchellh\\.ghostty$"]
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": {
+                    "mandatory": ["control", "shift"]
+                }
+            },
+            "to": [
+                {
+                    "shell_command": "/usr/bin/osascript -e 'tell application \"System Events\" to tell process \"Ghostty\" to set size of front window to {1044, 642}'"
+                }
+            ],
+            "conditions": [
+                {
+                    "type": "frontmost_application_if",
+                    "bundle_identifiers": ["^com\\.mitchellh\\.ghostty$"]
+                }
+            ]
         }
     ]
 }
