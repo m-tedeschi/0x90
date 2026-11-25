@@ -275,14 +275,14 @@
         {
             "type": "basic",
             "from": {
-                "key_code": "quote",
+                "key_code": "equal_sign",
                 "modifiers": {
-                    "mandatory": ["control", "shift"]
+                    "mandatory": ["fn", "control"]
                 }
             },
             "to": [
                 {
-                    "shell_command": "/usr/bin/osascript -e 'tell application \"System Events\" to tell process \"Ghostty\" to set size of front window to {1175, 778}'"
+                    "shell_command": "/usr/bin/osascript -e 'tell application \"System Events\" to tell process \"Ghostty\" to set size of front window to {1220, 798}'"
                 }
             ],
             "conditions": [
@@ -295,9 +295,9 @@
         {
             "type": "basic",
             "from": {
-                "key_code": "semicolon",
+                "key_code": "hyphen",
                 "modifiers": {
-                    "mandatory": ["control", "shift"]
+                    "mandatory": ["fn", "control"]
                 }
             },
             "to": [
