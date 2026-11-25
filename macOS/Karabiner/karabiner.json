@@ -282,13 +282,7 @@
             },
             "to": [
                 {
-                    "shell_command": "/usr/bin/osascript -e 'tell application \"System Events\" to tell process \"Ghostty\" to set size of front window to {1220, 798}'"
-                }
-            ],
-            "conditions": [
-                {
-                    "type": "frontmost_application_if",
-                    "bundle_identifiers": ["^com\\.mitchellh\\.ghostty$"]
+                    "shell_command": "/usr/bin/osascript -e 'tell application \"System Events\" to tell (first application process whose frontmost is true) to if (exists front window) then set size of front window to {1220, 798}'"
                 }
             ]
         },
@@ -302,13 +296,7 @@
             },
             "to": [
                 {
-                    "shell_command": "/usr/bin/osascript -e 'tell application \"System Events\" to tell process \"Ghostty\" to set size of front window to {1044, 642}'"
-                }
-            ],
-            "conditions": [
-                {
-                    "type": "frontmost_application_if",
-                    "bundle_identifiers": ["^com\\.mitchellh\\.ghostty$"]
+                    "shell_command": "/usr/bin/osascript -e 'tell application \"System Events\" to tell (first application process whose frontmost is true) to if (exists front window) then set size of front window to {1044, 642}'"
                 }
             ]
         }
